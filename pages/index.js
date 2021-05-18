@@ -114,7 +114,7 @@ export default function Home() {
       <Button routeTo ="/dashboard"/>
       <Button  text="About us" width="140px" bgcolor={bgc ? "#949494": "#C4C4C4"} onClick={HandleClick}/>
       </div>
-      <div className="rooter">
+      <div className="footer">
       ©2021 Group-7 Design1-Demo MDDD2C BCIT </div>
       <div className="bgc"> </div>
       

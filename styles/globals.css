@@ -69,8 +69,8 @@ margin-top:200px;
   align-items: center;
   
  }
- .rooter{
-  margin-top:800px;
+ .footer{
+  margin-top:825px;
   position: absolute;
   color: grey;
   background-color: #ece4d9;
@@ -176,5 +176,11 @@ margin-top:200px;
     .bgc2{
       background-size: 175% 175%;
       background-position: center;
+    }
+    .footer{
+      margin-top:790px;
+    }
+    .button{
+      margin-top:625px;
     }
     }
