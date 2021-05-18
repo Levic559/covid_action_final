@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Archivo', sans-serif;
+  font-weight:400;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+  background-color: #ece4d9;
+  
+}
+.bgc{
+ width: 1200px;
+ height:100vh;
+  background-image: url("/bgc.jfif") ;
+  background-repeat: no-repeat;
+  opacity:.25;
+  background-size: 100% 150%;
+  /* overflow: hidden; */
+  
+}
+.bgc2{
+  width: 1200px;
+  height:100vh;
+  background-image: url("/bgc-02.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+  opacity:1;
+  
+  /* z-index: -1; */
+}
+
+.wrapper{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo{
+margin-top:200px;
+ position: absolute;
+ z-index: 1;
+}
+.logotext{
+  margin-top:0px;
+  z-index: 1;
+  position: absolute;
+  
+ }
+.button{
+  margin-top:650px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .rooter{
+  margin-top:800px;
+  position: absolute;
+  color: grey;
+  background-color: #ece4d9;
+  
+ }
+ .Subtext{
+  margin-top:450px;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  /* font-style: bold; */
+  text-shadow: 5px 5px 5px grey;
+ }
+ .aboutUs{
+   position: absolute;
+  margin-top:250px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+ }
+
+ /* =======Survey start======= */
+ .sv_container{
+   width:320px;
+ }
+ .sv_header{
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+  display:none;
+}
+.sv_body{
+  line-height: 24px;
+  font-size: 18px;
+  margin-top:30px;
+
+}
+.sv_conatiner{
+  margin-top:-20px;
+}
+.sv_q_title{
+  font-size: 18px;
+  font-weight: 700;
+}
+ .sv_start_btn{
+   margin-top:50px;
+   margin-left: 200px;
+   background-color:#c4c4c4;
+   color:rgb(78, 78, 78);
+   border-radius: 10px;
+   border:none;
+   width:120px;
+   height:40px;
+   font-size: 20px;
+   font-weight: 400;
+
+ }
+ .sv_next_btn,.sv_complete_btn{
+  /* margin-top:20px; */
+  margin-left: 200px;
+  background-color:#c4c4c4;
+   color:rgb(78, 78, 78);
+   border-radius: 10px;
+   border:none;
+   width:120px;
+   height:40px;
+   font-size: 20px;
+   font-weight: 400;
+   
+ }
+ /* =======Survey end======= */
+
+.recharts-wrapper{
+  margin-left: -90px;
+  margin-top: -50px;
+}
+ @media only screen and (max-width: 1240px) {
+  /* For desktop or laptop: */
+ .bgc {
+  background-size: 100% 150%;
+  }
+  .bgc2{
+    background-size: 100% 150%;
+  }
+}
+@media screen and (max-width: 780px) and (min-width: 475px) {
+    /* For desktop or laptop: */
+   .bgc {
+    background-size: 100% 125%;
+    background-position: center;
+    }
+    .bgc2{
+      background-size: 100% 125%;
+      background-position: center;
+    }
+  }
+  @media only screen and (max-width:474px) {
+    /* For mobile phones: */
+    .bgc {
+      background-size: 150% 110%;
+      background-position: center;
+    }
+    .bgc2{
+      background-size: 175% 175%;
+      background-position: center;
+    }
+    }
