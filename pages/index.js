@@ -56,7 +56,7 @@ export default function Home() {
   }
 
   const [title, setTittle] =useState("Our Goal " )
-    const [content, setContent] =useState("BIRD is an app designed to educated its users about the COVID-19 Virus. For those who want to take action or test their knowlage, there are also Donation links and quizes.")
+    const [content, setContent] =useState("Covid-action is an app designed to educated its users about the COVID-19 Virus. For those who want to take action or test their knowlage, there are also Donation links and quizes.")
     const [content2, setContent2] =useState("")
     const [content3, setContent3] =useState("")
     const [index5,setindex5] = useState(false);
