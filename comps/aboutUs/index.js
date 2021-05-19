@@ -63,7 +63,7 @@ const ButtonCont=styled.div`
 //props
 const AboutUs = ({
   title="Our Goal",
-  text="BIRD is an app designed to educated its users about the COVID-19 Virus. For those who want to take action or test their knowlage, there are also Donation links and quizes.",
+  text="Covid-action is an app designed to educated its users about the COVID-19 Virus. For those who want to take action or test their knowlage, there are also Donation links and quizes.",
   text2="",
   text3="",
   bgcolor="#e8e8e8",
