@@ -12,13 +12,13 @@ import FlyBird from '../comps/FlyBird'
 const subtext={
   aboutus:{
     title:"Our Goal",
-    content:"BIRD is an app designed to educate its users about the COVID-19 Virus. For those who want to take action or test their knowledge, there are also Donation links and quizzes.",
+    content:"Covid-action is an app designed to educate its users about the COVID-19 Virus. For those who want to take action or test their knowledge, there are also Donation links and quizzes.",
   },
   team:{
     title:"Our Team",
    content: "  Levi Chen  ",
    content2: "Adrian Tejada",
-   content3: "Aly Ali ",
+   content3: "Sher Ali  ",
   
   }
   }
