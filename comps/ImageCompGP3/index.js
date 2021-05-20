@@ -110,8 +110,8 @@ const ImageCompGP3= ({
       {/* <Text1> {text1}</Text1>
       <Text2> {text2}</Text2>
       <Text3> {text3}</Text3> */}
-      <ImgCont1 src="/lower-mainland.svg"   width ={width } />
-      <ImgCont2 src="/lower-mainland-2.svg"   width2 ={width2 } />
+      <ImgCont1 src="/lower-mainland1.svg"   width ={width } />
+      <ImgCont2 src="/lower-mainland2.svg"   width2 ={width2 } />
       
 
     </ImgesCont>  
